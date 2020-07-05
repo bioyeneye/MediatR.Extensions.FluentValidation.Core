@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/dt/MediatR.Extensions.FluentValidation.Core.svg)](https://www.nuget.org/packages/MediatR.Extensions.FluentValidation.Core) 
 [![NuGet](https://img.shields.io/nuget/vpre/MediatR.Extensions.FluentValidation.Core.svg)](https://www.nuget.org/packages/MediatR.Extensions.FluentValidation.Core)
-[![license](https://img.shields.io/github/license/GetoXs/MediatR.Extensions.FluentValidation.Core.svg)](https://github.com/bioyeneye/MediatR.Extensions.FluentValidation.Core/blob/master/lICENSE)
+[![license](https://img.shields.io/github/license/bioyeneye/MediatR.Extensions.FluentValidation.AspNetCore.svg)](https://github.com/bioyeneye/MediatR.Extensions.FluentValidation.Core/blob/master/LICENSE)
 
 MediatR extension for FluentValidation using asp.net core
 
