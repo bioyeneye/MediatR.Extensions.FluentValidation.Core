@@ -56,3 +56,28 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 
 ```
+
+## Sample Validation
+
+```csharp
+public class CreateTodoCommandValidator : AbstractValidator<CreateTodoCommand>
+{
+    public CreateTodoCommandValidator()
+    {
+        RuleFor(x => x.Task)
+            .NotEmpty();
+    }
+}
+
+public class CreateTodoCommand : IRequest<Todo>
+{
+    public CreateTodoCommand(string task, bool isCompleted)
+    {
+        Task = task;
+        IsCompleted = isCompleted;
+    }
+
+    public string Task { get; }
+    public bool IsCompleted { get;}
+}
+```
