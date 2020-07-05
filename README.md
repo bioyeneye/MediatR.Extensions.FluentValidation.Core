@@ -48,8 +48,10 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
     app.UseHttpsRedirection();
 
+    //Add FluentValidation Middleware
     app.UseFluentValidationExceptionHandler();
 
+   //Add other stuffs
     ...
 }
 
